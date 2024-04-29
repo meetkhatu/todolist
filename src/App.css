@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
+.App{
+  margin-top: 100px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Home {
   display: flex;
+  flex-basis: 300 px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.Home h1{
+  font-size: xx-large;
+}
+
+.Create{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+button{
+  padding: 10px;
+  background-color: black;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.task {
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+#line-through{
+  text-decoration:  line-through ;
 }
